@@ -1,0 +1,76 @@
+/* CSS Document */
+body{
+	background-color: grey;
+	margin: 0 5%;
+/*
+	margin-left: 4%;
+	margin-right: 4%;
+*/
+	
+}
+header, footer{
+	text-align: center;
+	background-color: lightcyan;
+	height: 100px;
+}
+nav {
+	float: left;
+	height: 500px;
+	width: 20%;
+	background-color: black;
+}
+/* The navigation menu links */
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	background-color: black;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+/*	width: 20%;*/
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+ 	color: #f1f1f1;
+	background-color: #393939;
+}
+.section1{
+	height:500px;
+	width: auto;
+	background-color: darkgrey;
+}
+.section2{
+	height:650px;
+	width:auto;
+}
+.div1, .div3{
+	width:33.33%;
+	height:300px;
+	float:left;
+	background-color: lightblue;
+}
+.div2{
+	width:33.33%;
+	height:300px;
+	float:left;
+	background-color: cornflowerblue;
+}
+.div4, .div5{
+	width:50%;
+	height:200px;
+	float:left;
+	background-color: lightcyan;
+}
+.div6, .div7, .div8{
+	width:33.33%;
+	height: 150px;
+	float: left;
+	background-color: darkturquoise
+}
+.div7{
+	background-color: skyblue;
+}
+.div5{
+	background-image: url("img/blueflower.jpg");
+	background-size: cover;
+}
