@@ -1,0 +1,14 @@
+/* CSS Document */
+body{
+	margin: 0 9%;
+}
+header{
+	height: 350px;
+	background-image: url("img/images/images/header.jpg");
+	background-size:cover;
+}
+.wid50{
+	width: 48%;
+	padding: 10px 11px;
+	float: left;
+}
